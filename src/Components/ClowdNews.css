@@ -1,0 +1,101 @@
+.wather{
+ place-self: center;
+ width: 350px;
+ height: px;
+ background:rgb(208, 208, 208);
+ border-radius: 15px;
+ box-shadow: 1px 5px 60px 0px #100a886b;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 1.25rem ;
+ overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar input{
+    /* padding: 10px; */
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 3px solid black;
+    margin: 5px;
+    padding: 12px 10px 12px 10px;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.navbar img{
+    border: 3px solid ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(193, 193, 255);
+}
+
+#cnd-logo{
+  width: 12rem;
+}
+
+.temperature{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.location{
+    font-size: 25px;
+}
+
+.w-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: 20px;
+    line-height: 1.5;
+    padding-top: 10px;  
+    margin-left: -3px; 
+}
+.w-data p{
+ font-size: 1.25rem;
+}
+.w-data img{
+    width: 2.5rem;
+    margin: 1rem;
+}
+.w-data h5{
+    font-size: 1.25rem;
+}
+
+#aqi-logo{
+    width: 2.75rem;
+    margin: 0.75rem;
+}
+
+.aqi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+
+.aqi h6{
+    font-size: 1.25rem;
+}
